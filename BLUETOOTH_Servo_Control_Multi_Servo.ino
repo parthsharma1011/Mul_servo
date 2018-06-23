@@ -1,10 +1,4 @@
-/*
-Author: Danny van den Brande.
-With this code you can control multiple servo motors by using a android app.
-You can add as many as you like untill your pins run out. You can add more Servos in the code.
-If you want the source of the app just contact me.
- */
-
+/* mul servo code thanks to Danny */
 #include <Servo.h> 
 Servo myservo1, myservo2, myservo3, myservo4, myservo5, myservo6, myservo7, myservo8, myservo9, myservo10;
 
@@ -83,37 +77,7 @@ void loop()
       delay(10);
     }
 
-//    if (realservo >=7000 && realservo < 7180){ //UNCOMMENT if using more then 6 Servos.
-//      int servo7 = realservo;
-//      servo7 = map(servo7, 7000, 7180,0,180);
-//      myservo7.write(servo7);
-//      Serial.println("servo 7 On");
-//      delay(10);
-//    }
-//
-//    if (realservo >=8000 && realservo < 8180){
-//      int servo8 = realservo;
-//      servo8 = map(servo8, 8000, 8180,0,180);
-//      myservo8.write(servo8);
-//      Serial.println("servo 8 On");
-//      delay(10);
-//    }
-//
-//    if (realservo >=9000 && realservo < 9180){
-//      int servo8 = realservo;
-//      servo8 = map(servo9, 9000, 9180,0,180);
-//      myservo8.write(servo8);
-//      Serial.println("servo 9 On");
-//      delay(10);
-//    }
-//
-//    if (realservo >=10000 && realservo < 10180){
-//      int servo10 = realservo;
-//      servo10 = map(servo10, 10000, 10180,0,180);
-//      myservo10.write(servo10);
-//      Serial.println("servo 10 On");
-//      delay(10);
-//    }
+
  
   }
 
